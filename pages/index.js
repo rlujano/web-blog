@@ -91,6 +91,10 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <div className="gtm-buttons">
+          <button className='btn-gtm'>Like</button>
+          <button className='new-btn-gtm' data-button-id="btn-like-button"><span>Like button</span></button>
+        </div>
       </main>
 
       <footer>
