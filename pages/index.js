@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import BotonContador from './components/Button';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -93,7 +94,8 @@ export default function Home() {
         </div>
         <div className="gtm-buttons">
           <button className='btn-gtm'>Like</button>
-          <button className='new-btn-gtm' data-button-id="btn-like-button"><span>Like button</span></button>
+          <button className='btn-gtm' data-button-id="btn-like-button"><span>Like button</span></button>
+          <BotonContador />
         </div>
       </main>
 
